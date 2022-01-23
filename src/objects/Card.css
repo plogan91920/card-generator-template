@@ -1,0 +1,15 @@
+.card {
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    width: 2.5in;
+    height: 3.5in;
+}
+
+.card .layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,21 @@
+.page {
+    background: white;
+}
+
+@media print {
+    .page {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        width: 8.5in;
+        height: 11in;
+        border: 1px solid gray;
+    }
+}
+
+@media screen {
+    .page {
+        display: inline-flex;
+    }
+}

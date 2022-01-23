@@ -1,0 +1,10 @@
+.Captain {
+    background-color: blue;
+}
+
+.Captain .Name {
+    display: block;
+    position: absolute;
+    top: 3mm;
+    right: 3mm;
+}
